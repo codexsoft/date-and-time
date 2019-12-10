@@ -1,0 +1,35 @@
+{
+    "name": "codexsoft/date-and-time",
+    "license": "MIT",
+    "description": "Some helpers for dealing with date and time",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/date-and-time/issues",
+        "source": "https://github.com/codexsoft/date-and-time"
+    },
+    "require": {
+        "php": "^7.1.8 || ^8.0",
+        "ext-mbstring": "*",
+        "nesbot/carbon": "^2.0.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\DateAndTime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/"]
+        }
+    }
+}
